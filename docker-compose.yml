@@ -1,0 +1,10 @@
+rabbitmq:
+    image: rabbitmq:3.7-management
+    ports:
+      - "8031:15672"
+      - "5672:5672"
+      - "5671:5671"
+    environment:
+      - RABBITMQ_DEFAULT_PASS=mypass
+      - RABBITMQ_DEFAULT_USER=myuser
+      - RABBITMQ_DEFAULT_VHOST=myvhost

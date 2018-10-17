@@ -1,0 +1,5 @@
+amqp==2.2.2
+kombu==4.1.0
+ipython==7.0.1
+celery==4.1.0
+
